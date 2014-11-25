@@ -218,7 +218,7 @@
 
        <activity android:name=".ui.WwwContextMenuActivity"
             android:label="@string/message_options"
-            android:theme="@android:style/Theme.Holo.Light.Dialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog"
             android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -400,5 +400,6 @@
         <service android:name=".widget.MmsWidgetService"
                  android:permission="android.permission.BIND_REMOTEVIEWS"
                  android:exported="false" />
+
     </application>
 </manifest>
